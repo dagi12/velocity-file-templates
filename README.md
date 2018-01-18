@@ -1,6 +1,12 @@
 # velocity-file-templates
 
-### Szablony plików do IDE Jetbrains
+### Description
+
+Common file templates for Jetbrains IDEs.
+
+### Installation
+
+Copy desired content to ~/.<IDE>/config/fileTemplates/
 
 ### Webstorm
 #### AngularJS (ES6)
