@@ -1,0 +1,9 @@
+<templateSet group="user">
+    <template name="testa"
+              value="@org.junit.runner.RunWith(org.springframework.test.context.junit4.SpringRunner.class)&#10;@org.springframework.test.context.TestPropertySource(value = {&quot;/application-test.properties&quot;, &quot;/application-dev.properties&quot;})&#10;@org.springframework.boot.autoconfigure.domain.EntityScan(value = {&quot;pl.softra.model&quot;, &quot;pl.softra.partner&quot;})&#10;@org.springframework.data.jpa.repository.config.EnableJpaRepositories(value = {&quot;pl.softra.common&quot;, &quot;pl.softra.partner&quot;})&#10;@org.springframework.test.context.ContextConfiguration(classes = {&#10;        pl.softra.CommonTestConfig.class,&#10;        pl.softra.model.db.IdGenerator.class,&#10;        pl.edu.amu.wmi.db.CommonEntityManager.class,&#10;})&#10;@Transactional"
+              toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_DECLARATION" value="true"/>
+        </context>
+    </template>
+</templateSet>
