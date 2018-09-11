@@ -1,0 +1,6 @@
+[submodule "idea-spring-live-templates"]
+	path = idea-spring-live-templates
+	url = https://github.com/f-lopes/idea-spring-live-templates
+[submodule "allegro-intellij-templates"]
+	path = allegro-intellij-templates
+	url = https://github.com/mkopylec/allegro-intellij-templates

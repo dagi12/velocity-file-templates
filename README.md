@@ -1,26 +1,34 @@
 # velocity-file-templates
 
-### Description
+## Description
 
 Common file templates for Jetbrains IDEs.
 
-### Installation
+## Installation
 
-Copy desired content to ~/.<IDE>/config/fileTemplates/
+Copy desired content to 
 
-### Webstorm
-#### AngularJS (ES6)
+- Linux - ~/.<IDE>/config/fileTemplates/
+- macOS - ~/Library/Preferences/.<IDE>/config/fileTemplates/
+
+For live tepmlates copy to  
+- Linux ~/.<IDE>/config/templates/
+- macOs- ~/Library/Preferences/.<IDE>/config/templates/
+
+## Webstorm
+### AngularJS (ES6)
 - angular component
 - angular module
 - angular directive
 - angular controller
 - angular test
 
-#### React
+### React
 - react component
 - react service
 
-### IntelliJ
+## IntelliJ
+- logger
+- spring boot test
 
-### Android
 
